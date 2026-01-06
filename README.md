@@ -1,1 +1,3 @@
 # -Analyse-Yelp-Dataset-with-Spark-Parquet-Format-on-Azure-Databricks
+
+The project aims to process and analyze Yelp's raw JSON dataset to derive actionable insights about businesses, customer reviews, and user behavior using Azure services. The primary goal is to transform and standardize the data by orchestrating it through a scalable Azure pipeline. Raw Yelp data is ingested into Azure Data Lake Storage Gen2, while Azure Data Factory’s Copy Data pipeline ensures seamless movement and organization of data between storage containers. Detailed transformations and analyses are performed using Azure Databricks to extract insights such as top-performing business categories, customer sentiment trends, and regional business patterns. 
